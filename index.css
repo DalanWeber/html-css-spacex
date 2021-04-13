@@ -1,0 +1,96 @@
+body{
+    color: white;
+    font: Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url("https://www.spacex.com/static/images/backgrounds-2021/HP_SN11_Vertical_20210311_IMG_01221.jpg");
+    background-size: cover;
+}
+
+header {
+    height: 150px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.logo{
+    /* background-color: red; */
+    height: 50px;
+    position: relative;
+    left: 40px;
+    bottom: 5px;
+
+}
+
+.middlelist{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    min-width: 1000px;
+    left: -150px;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    width: 150%;
+    justify-content: space-between;
+}
+    
+nav > ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+li {
+    list-style: none;
+}
+
+
+.shoplist{
+    /* background-color: chartreuse; */
+    display:flex;
+    justify-content: space-between;
+    /* max-width: 10px; */
+    
+}
+
+.hamburger {
+    position: relative;
+    /* keep the hamburger button above everything */
+    z-index: 100;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+}
+
+.flighttestcontainer{
+    /* background-color: blue; */
+    height: 100%;
+    width: ;
+    display: flexbox;
+    position: relative;
+    padding-left: 57%;
+    padding-top: 20%;
+}
+
+.flighttest{
+
+}
+
+.starship{
+
+}
+
+.button{
+
+}
